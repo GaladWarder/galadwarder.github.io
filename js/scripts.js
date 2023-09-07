@@ -374,7 +374,7 @@ function initInshot() {
     //   mailchimp------------------
     $("#subscribe").ajaxChimp({
         language: "eng",
-        url: "https://gmail.us1.list-manage.com/subscribe/post?u=1fe818378d5c129b210719d80&amp;id=a2792f681b"
+        url: "https://yahoo.us21.list-manage.com/subscribe/post?u=9761df42b55083878a3bce81b&amp;id=31aba40cba&amp;f_id=00d3e7e6f0"
     });
     $.ajaxChimp.translations.eng = {
         submit: "Submitting...",

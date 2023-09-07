@@ -53,7 +53,7 @@ if(trim($comments) == '') {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@themeforest.net";
-$address = "dimagalishev@gmail.com";
+$address = "galaddota@yahoo.com";
 
 
 // Configuration option.
@@ -61,14 +61,14 @@ $address = "dimagalishev@gmail.com";
 
 // Example, $e_subject = '$name . ' has contacted you via Your Website.';
 
-$e_subject = 'You\'ve been contacted by ' . $name . '.';
+$e_subject = 'New Form Submission - Grant Roberts Portfolio Site: ' . $name . '.';
 
 
 // Configuration option.
 // You can change this if you feel that you need to.
 // Developers, you may wish to add more fields to the form, in which case you must be sure to add them here.
 
-$e_body = "You have been contacted by $name with regards, their additional message is as follows." . PHP_EOL . PHP_EOL;
+$e_body = "You have been contacted by $name , their additional message is as follows." . PHP_EOL . PHP_EOL;
 $e_content = "\"$comments\"" . PHP_EOL . PHP_EOL;
 $e_reply = "You can contact $name via email, $email or via phone $phone";
 
