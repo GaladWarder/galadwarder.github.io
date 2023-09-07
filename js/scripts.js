@@ -358,7 +358,6 @@ function initInshot() {
                 email: $("#email").val(),
                 phone: $("#phone").val(),
                 comments: $("#comments").val(),
-                verify: $('#verify').val()
             }, function (a) {
                 document.getElementById("message").innerHTML = a;
                 $("#message").slideDown("slow");

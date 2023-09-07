@@ -13,7 +13,6 @@ $name     = $_POST['name'];
 $email    = $_POST['email'];
 $phone   = $_POST['phone'];
 $comments = $_POST['comments'];
-$verify   = $_POST['verify'];
 
 if(trim($name) == '') {
 	echo '<div class="error_message">You must enter your name.</div>';
@@ -34,12 +33,6 @@ if(trim($name) == '') {
 
 if(trim($comments) == '') {
 	echo '<div class="error_message">Please enter your message.</div>';
-	exit();
-} else if(!isset($verify) || trim($verify) == '') {
-	echo '<div class="error_message">Please enter the verification number.</div>';
-	exit();
-} else if(trim($verify) != '7') {
-	echo '<div class="error_message">  The verification number you entered is incorrect.</div>';
 	exit();
 }
 
