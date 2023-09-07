@@ -79,6 +79,9 @@ let appHeader = `
                                 <!--second level end-->
                             </li>
                             <li>
+                                <a href="contact.html">Contact Me</a>
+                            </li>
+                            <li>
                                 <a href="blog.html">Journal</a>
                                 <!--second level end-->
                                 <ul>
