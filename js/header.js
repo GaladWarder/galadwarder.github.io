@@ -3,7 +3,7 @@ let appHeader = `
        <header class="main-header">
                 <div class="header-contacts">
                     <ul>
-                        <li><a href="#"> <span>Call :</span> +1 (406) 226 7644</a></li>
+                        <li><a href="#"> <span>Discord :</span> galadwarder</a></li>
                         <li><a href="#"> <span>Write :</span> galaddota@yahoo.com</a></li>
                     </ul>
                 </div>
