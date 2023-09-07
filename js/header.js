@@ -66,6 +66,9 @@ let appHeader = `
                                 <!--second level end-->
                             </li>
                             <li>
+                                <a href="newsletter.html">Newsletter</a>
+                            </li>
+                            <li>
                                 <a href="#">Pages</a>
                                 <!--second level -->   
                                 <ul>
