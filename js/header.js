@@ -4,7 +4,13 @@ let appHeader = `
                 <div class="header-contacts">
                     <ul>
                         <li><span>Discord :</span> galadwarder</li>
-                        <li><a href="mailto:galaddota@yahoo.com"> <span>Email Me :</span> galaddota@yahoo.com</a></li>
+                        <li><span>Email Me :</span> 
+                            <button title="Click to Copy" type="submit" value="copy" onclick="copyEmail();" class=copybutton>galaddota@yahoo.com</button>  
+                        </li>
+                        <span id="custom-tooltip">copied!</span>
+</div>
+
+<textarea class=visuallyhidden id="box"></textarea>
                     </ul>
                 </div>
                 <a class="logo-holder" href="index.html"><img src="images/logo.png" alt=""></a>

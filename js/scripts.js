@@ -1,4 +1,19 @@
 //   all ------------------
+
+//the copy function is used in the email copy popup in the headers
+function copyEmail(){
+    var Url = document.getElementById("box");
+    Url.value = "galaddota@yahoo.com";
+    Url.focus();
+    Url.select();
+    document.getElementById("custom-tooltip").style.display = "inline";
+    document.execCommand("copy");
+    setTimeout( function() {
+        document.getElementById("custom-tooltip").style.display = "none";
+    }, 1000);
+
+};
+
 function initInshot() {
     "use strict";
     //   loader ------------------
