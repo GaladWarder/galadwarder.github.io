@@ -5,14 +5,14 @@ let appHeader = `
                     <ul>
                         <li><span>Discord :</span> galadwarder</li>
                         <li><span>Email Me :</span> 
-                            <button title="Click to Copy" type="submit" value="copy" onclick="copyEmail();" class=copybutton>galaddota@yahoo.com</button>  
+                            <button title="Click to Copy" type="submit" value="copy" id="copyButton" class=copybutton>galaddota@yahoo.com</button>  
                         </li>
-                        <span id="custom-tooltip">copied!</span>
-</div>
-
-<textarea class=visuallyhidden id="box"></textarea>
                     </ul>
                 </div>
+                <span id="custom-tooltip">copied!</span>
+                <textarea class=visuallyhidden id="box">galaddota@yahoo.com</textarea>
+                </div>
+
                 <a class="logo-holder" href="index.html"><img src="images/logo.png" alt=""></a>
                 <!-- search button-->   
                 <div class="show-sibedar vissidebar"></div>
