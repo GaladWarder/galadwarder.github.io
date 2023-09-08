@@ -25,16 +25,6 @@ let appHeader = `
                         <ul>
                             <li>
                                 <a href="index.html" class="act-link">Home </a>
-                                <!--second level -->   
-                                <ul>
-                                    <li><a href="index2.html">Slider</a></li>
-                                    <li><a href="index3.html">Kenburns</a></li>
-                                    <li><a href="index4.html">Slideshow</a></li>
-                                    <li><a href="index5.html">Image</a></li>
-                                    <li><a href="index6.html">Carousel Center</a></li>
-                                    <li><a href="index7.html">Video</a></li>
-                                </ul>
-                                <!--second level end-->
                             </li>
                             <li>
                                 <a href="portfolio.html">Portfolio</a>
@@ -66,21 +56,12 @@ let appHeader = `
                                 <!--second level end-->
                             </li>
                             <li>
-                                <a href="newsletter.html">Newsletter</a>
+                                <a href="resume.html">Resume</a>
                             </li>
                             <li>
-                                <a href="#">Pages</a>
-                                <!--second level -->   
-                                <ul>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="about2.html">About 2</a></li>
-                                    <li><a href="about3.html">About 3</a></li>
-                                    <li><a href="contact.html">Contacts</a></li>
-                                    <li><a href="contact2.html">Contacts 2</a></li>
-                                    <li><a href="contact3.html">Contacts 3</a></li>
-                                </ul>
-                                <!--second level end-->
+                                <a href="newsletter.html">Newsletter</a>
                             </li>
+                            
                             <li>
                                 <a href="blog.html">Journal</a>
                                 <!--second level end-->
