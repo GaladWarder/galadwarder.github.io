@@ -28,7 +28,7 @@ function copyEmail(event) {
     // Set the tooltip's position inline with the clicked button, to the right
     tooltipElement.style.display = "inline";
     tooltipElement.style.position = "absolute";
-    tooltipElement.style.top = (buttonRect.top - 12) + "px"; // Adjust the position as needed
+    tooltipElement.style.top = (buttonRect.top - 11) + "px"; // Adjust the position as needed
     tooltipElement.style.left = (buttonRect.right + 16) + "px"; // To the right of the button
 
     document.execCommand("copy");

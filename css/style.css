@@ -306,7 +306,7 @@ header.main-header {
 
 #custom-tooltip {
     display: none;
-    padding: 2px 12px;
+    padding: 0px 12px;
     background-color: #000000df;
     border-radius: 4px;
     color: #fff;
