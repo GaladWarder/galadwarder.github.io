@@ -3,8 +3,8 @@ let appHeader = `
        <header class="main-header">
                 <div class="header-contacts">
                     <ul>
-                        <li><a href="#"> <span>Discord :</span> galadwarder</a></li>
-                        <li><a href="#"> <span>Email Me :</span> galaddota@yahoo.com</a></li>
+                        <li><span>Discord :</span> galadwarder</li>
+                        <li><a href="mailto:galaddota@yahoo.com"> <span>Email Me :</span> galaddota@yahoo.com</a></li>
                     </ul>
                 </div>
                 <a class="logo-holder" href="index.html"><img src="images/logo.png" alt=""></a>
