@@ -1,10 +1,5 @@
 @charset "utf-8";
 /*======================================
- [ -Main Stylesheet-
-  Theme: Inshot
-  Version: 1.1
-  Last change: 19/02/2019 ]
-  /*------------------------------------------------------------------
 [Table of contents]
 
 1. Import fonts
@@ -132,7 +127,18 @@ blockquote p {
 	font-style:italic;
 	color:#494949;
 }
+
+h1{
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+}
+h7{
+	font-size: 16px;
+	font-weight: bold;
+}
 /* ---------Content Styles--------------------------------------*/
+
 #main{
 	height:100%;
 	width:100%;
@@ -183,6 +189,13 @@ blockquote p {
 }
 .fl-wrap {
 	float:left;
+	width:100%;
+	position:relative;
+}
+.fl-wrap-software {
+	display:inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	width:100%;
 	position:relative;
 }
@@ -1137,7 +1150,21 @@ section.parallax-section .overlay {
 	font-style:italic;
 	color:#999;
 }
+/* -------- software proficiency ---------*/
+.software-box{
+	text-align:center;
+	width:30%;
+	padding:0 5px;
+	margin-top:15px;
+}
+
+.software-icon {
+	margin: auto;
+	width: 50px;
+	height: 50px;
+}
 /* --------- team --------------------------------------*/
+
 .team-box {
 	float:left;
 	width:50%;
