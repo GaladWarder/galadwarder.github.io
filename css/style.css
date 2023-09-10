@@ -34,6 +34,13 @@
 -------------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Ek+Mukta:200,300,400,500,600,700,800&subset=devanagari,latin-ext');
 /*-------------General Style---------------------------------------*/
+a.anchor {
+    display: block;
+    position: relative;
+    top: -200px;
+    visibility: hidden;
+}
+
 html{
 	overflow-x:hidden !important;
 	height:100%;
