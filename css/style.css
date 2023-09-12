@@ -1163,6 +1163,11 @@ section.parallax-section .overlay {
 	width: 50px;
 	height: 50px;
 }
+.experience-icon {
+	margin: auto;
+	width: 30px;
+	height: 30px;
+}
 /* --------- team --------------------------------------*/
 
 .team-box {
