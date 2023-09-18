@@ -65,17 +65,7 @@ let appHeader = `
                                 <a href="resume.html">Resume</a>
                             </li>
                             <li>
-                                <a href="newsletter.html">Newsletter</a>
-                            </li>
-                            
-                            <li>
-                                <a href="blog.html">Journal</a>
-                                <!--second level end-->
-                                <ul>
-                                    <li><a href="blog2.html">Column style</a></li>
-                                    <li><a href="blog-single.html">Post Single</a></li>
-                                </ul>
-                                <!--second level end-->
+                                <a href="https://linktr.ee/grantrobertsart">LinkTree</a>
                             </li>
                         </ul>
                     </nav>
