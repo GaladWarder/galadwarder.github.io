@@ -3,6 +3,9 @@
 //the copy function is used in the email copy popup in the headers
 var clickCount = 0; // Initialize a variable to keep track of the number of clicks
 
+var clickCount = 0; // Initialize the click count
+var timeoutId; // Initialize a variable to store the timeout ID
+
 function copyEmail(event) {
     var copyInput = document.getElementById("box");
     copyInput.select();
@@ -34,10 +37,17 @@ function copyEmail(event) {
     document.execCommand("copy");
     clickCount = (clickCount + 1) % tooltips.length; // Cycle through the messages
 
-    setTimeout(function () {
+    // Clear the previous timeout, if any
+    if (timeoutId) {
+        clearTimeout(timeoutId);
+    }
+
+    // Set a new timeout for hiding the tooltip
+    timeoutId = setTimeout(function () {
         tooltipElement.style.display = "none";
     }, 1000);
 }
+
 
 document.getElementById("copyButton").addEventListener("click", copyEmail);
 
