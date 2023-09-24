@@ -40,7 +40,8 @@ let appHeader = `
                                     <li><a href="portfolio-triumph.html">Triumph</a></li>
                                     <li><a href="portfolio-battleplan.html">Battle Plan!</a></li>
                                     <li><a href="portfolio-packageblue.html">Package Blue</a></li>
-                                    <li><a href="portfolio-drustvari.html">Drustvari Staff Designs</a></li>
+                                    <li><a href="portfolio-projectdot.html">Project DOT</a></li>
+                                    <li><a href="portfolio-inhabitants-posters.html">Inhabitants Posters</a></li>
                                 </ul>
                                 <!--second level end-->
                             </li>
