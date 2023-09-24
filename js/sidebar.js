@@ -31,7 +31,7 @@ let appSidebar = `
                     <h3>Our Story  video </h3>
                     <div class="sb-widge video-widget   fl-wrap">
                         <img src="images/video-banner.jpg"  class="respimg" alt=""> 
-                        <a href="https://vimeo.com/77416730" class="image-popup"><i class="fa fa-play"></i></a>
+                        <a href="pic.twitter.com/o95T1MBKUq" class="image-popup"><i class="fa fa-play"></i></a>
                     </div>
                 </div>
                 <!-- sb-widget-wrap end-->       
