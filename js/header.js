@@ -38,7 +38,7 @@ let appHeader = `
                                 <ul>
                                     <li><a href="portfolio.html">All</a></li>
                                     <li><a href="portfolio-triumph.html">Triumph</a></li>
-                                    <li><a href="portfolio-battleplan.html">Battle Plan!</a></li>
+                                    <li><a href="portfolio-battleplan.html">BattlePlan!</a></li>
                                     <li><a href="portfolio-packageblue.html">Package Blue</a></li>
                                     <li><a href="portfolio-projectdot.html">Project DOT</a></li>
                                     <li><a href="portfolio-inhabitants-posters.html">Inhabitants Posters</a></li>
