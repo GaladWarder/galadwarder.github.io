@@ -51,6 +51,7 @@ body{
 	color:#000;
 	font-family: 'Ek Mukta', sans-serif;
 }
+
 .hidhtml {
 	overflow:hidden;
 }
@@ -207,6 +208,12 @@ h7{
 
 .fl-wrap {
 	float:left;
+	width:100%;
+	position:relative;
+}
+.fl-wrap-portrait {
+	margin-left: auto; 
+	margin-right: 0;
 	width:100%;
 	position:relative;
 }
@@ -545,7 +552,7 @@ nav li  a.act-link , .nav-holder nav li a:hover  , nav.asl li  a.act-scrlink {
 .hiiden-sidebar-wrap {
 	position:fixed;
 	overflow:auto;
-	width:350px;
+	width:150px;
 	z-index:19;
 	right:-470px;
 	top:96px;
@@ -567,7 +574,7 @@ nav li  a.act-link , .nav-holder nav li a:hover  , nav.asl li  a.act-scrlink {
 	-webkit-transform: translate3d(0,0,0);
 }
 .sb-widget-wrap {
-	margin-bottom:50px;
+	margin-bottom:30px;
 	padding-bottom:30px;
 	border-bottom:1px solid #eee;
 }
@@ -583,8 +590,8 @@ nav li  a.act-link , .nav-holder nav li a:hover  , nav.asl li  a.act-scrlink {
 	font-weight:400;
 }
 .about-widget  img{
-	width:120px;
-	height:120px;
+	width:60px;
+	height:60px;
 	border-radius:100%;
 	margin-bottom:30px;
 }
