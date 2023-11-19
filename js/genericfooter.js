@@ -10,7 +10,7 @@ let appFooter = `
                     <ul>
                         <li><a href="https://www.artstation.com/grantroberts" target="_blank" ><i class="fa fa-instagram"></i><span>artstation</span></a></li>
                         <li><a href="https://twitter.com/GaladWarder" target="_blank"><i class="fa fa-twitter"></i><span>twitter / X</span></a></li>
-                        <li><a href="https://www.linkedin.com/in/grantrobertsart/" target="_blank" ><i class="fa fa-pinterest"></i><span>linkedin</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/grantrobertsart/" target="_blank" ><i class="fa fa-linkedin"></i><span>linkedin</span></a></li>
                     </ul>
                 </div>
             </footer>
