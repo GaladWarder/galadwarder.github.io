@@ -28,7 +28,7 @@ let appHeader = `
                     <div class="nav-button vis-main-menu"><span></span><span></span><span></span></div>
                 </div>
                 <!-- mobile nav end--> 
-                
+
                 <!--  navigation --> 
                 <div class="nav-holder">
                     <nav>
@@ -41,7 +41,16 @@ let appHeader = `
                                 <!--second level -->
                                 <ul>
                                     <li><a href="portfolio.html">All</a></li>
-                                    <li><a href="portfolio-battleplan.html">BattlePlan!</a></li>
+                                    <li>
+                                        <a href="portfolio-battleplan.html">BattlePlan!</a>
+                                        <!--third level-->
+                                        <ul>
+                                            <li><a href="portfolio-battleplan-backgrounds.html">Backgrounds</a></li>
+                                            <li><a href="portfolio-battleplan-characters.html">Characters</a></li>
+                                            <li><a href="portfolio-battleplan-illustrations.html">Illustrations</a></li>
+                                        </ul>
+                                        <!--end third level-->
+                                    </li>
                                     <li><a href="portfolio-triumph.html">Triumph</a></li>
                                     <li><a href="portfolio-packageblue.html">Package Blue</a></li>
                                     <li><a href="portfolio-projectdot.html">Project DOT</a></li>
@@ -72,3 +81,53 @@ let appHeader = `
     </nav>
 `;
 document.getElementById("app-header").innerHTML = appHeader;
+
+function copyEmail(event) {
+    var copyInput = document.getElementById("box");
+    copyInput.select();
+    copyInput.setSelectionRange(0, 99999); // For mobile devices
+
+    // Array of tooltip messages
+    var tooltips = ["copied!", "double copy!", "triple copy!", "QUADRACOPY!", "GODLIKE!"];
+
+    var tooltipElement = document.getElementById("custom-tooltip");
+    tooltipElement.textContent = tooltips[clickCount];
+
+    // Check if the click count is 4 and add the "shake" class
+    if (clickCount === 4) { // "GODLIKE!" corresponds to click count 4
+        tooltipElement.classList.add("shake");
+    } else {
+        // Remove the "shake" class if the click count is not 4
+        tooltipElement.classList.remove("shake");
+    }
+
+    // Get the position and size of the clicked button
+    var buttonRect = event.target.getBoundingClientRect();
+
+    // Set the tooltip's position inline with the clicked button, to the right
+    tooltipElement.style.display = "inline";
+    tooltipElement.style.position = "absolute";
+    tooltipElement.style.top = (buttonRect.top - 11) + "px"; // Adjust the position as needed
+    tooltipElement.style.left = (buttonRect.right + 16) + "px"; // To the right of the button
+
+    document.execCommand("copy");
+    clickCount = (clickCount + 1) % tooltips.length; // Cycle through the messages
+
+    // Clear the previous timeout, if any
+    if (timeoutId) {
+        clearTimeout(timeoutId);
+    }
+
+    // Set a new timeout for hiding the tooltip
+    timeoutId = setTimeout(function () {
+        tooltipElement.style.display = "none";
+    }, 1000);
+}
+
+
+
+
+//end of copy function
+
+
+document.getElementById("copyButton").addEventListener("click", copyEmail);

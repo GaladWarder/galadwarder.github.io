@@ -6,52 +6,7 @@ var clickCount = 0; // Initialize a variable to keep track of the number of clic
 var clickCount = 0; // Initialize the click count
 var timeoutId; // Initialize a variable to store the timeout ID
 
-function copyEmail(event) {
-    var copyInput = document.getElementById("box");
-    copyInput.select();
-    copyInput.setSelectionRange(0, 99999); // For mobile devices
 
-    // Array of tooltip messages
-    var tooltips = ["copied!", "double copy!", "triple copy!", "QUADRACOPY!", "GODLIKE!"];
-
-    var tooltipElement = document.getElementById("custom-tooltip");
-    tooltipElement.textContent = tooltips[clickCount];
-
-    // Check if the click count is 4 and add the "shake" class
-    if (clickCount === 4) { // "GODLIKE!" corresponds to click count 4
-        tooltipElement.classList.add("shake");
-    } else {
-        // Remove the "shake" class if the click count is not 4
-        tooltipElement.classList.remove("shake");
-    }
-
-    // Get the position and size of the clicked button
-    var buttonRect = event.target.getBoundingClientRect();
-
-    // Set the tooltip's position inline with the clicked button, to the right
-    tooltipElement.style.display = "inline";
-    tooltipElement.style.position = "absolute";
-    tooltipElement.style.top = (buttonRect.top - 11) + "px"; // Adjust the position as needed
-    tooltipElement.style.left = (buttonRect.right + 16) + "px"; // To the right of the button
-
-    document.execCommand("copy");
-    clickCount = (clickCount + 1) % tooltips.length; // Cycle through the messages
-
-    // Clear the previous timeout, if any
-    if (timeoutId) {
-        clearTimeout(timeoutId);
-    }
-
-    // Set a new timeout for hiding the tooltip
-    timeoutId = setTimeout(function () {
-        tooltipElement.style.display = "none";
-    }, 1000);
-}
-
-
-document.getElementById("copyButton").addEventListener("click", copyEmail);
-
-//end of copy function
 
 
 function initInshot() {
@@ -616,6 +571,7 @@ document.addEventListener('gesturestart', function (e) {
 	e.preventDefault();
 });
 $(document).ready(function () {
+    console.log("ready function called");
     initInshot();
     initparallax();
 });
