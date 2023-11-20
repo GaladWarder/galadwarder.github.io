@@ -130,7 +130,6 @@ blockquote p {
 }
 
 h1{
-	float: left;
 	font-size: 16px;
 	font-weight: bold;
 }
@@ -974,6 +973,12 @@ footer.scroll-footer {
 .intro-title-wrap .separator{
 	float:right;
 	margin:25px 0 5px;
+}
+.intro-title-wrap h1{
+	text-align:right;
+	font-size:26px;
+	text-transform:uppercase;
+	font-weight:700;
 }
 .intro-title-wrap h2{
 	text-align:right;
